@@ -9,24 +9,36 @@
     height: 50px; 
 }
 
-#creatore {
-    color: rgb(50, 134, 198);
+#Creatore {
+    color: rgb(121, 128, 133);
+}
+
+#Nome_Creatore {
+    color: rgb(14, 178, 243);
 }
 /*header fine*/
 
 
 /*main inizio*/
 
+#Words_Bg{
+    background-color: rgb(244, 237, 106);
+}
 
 
 
 
 /*tabella*/
-#table_head{
+#Table_Head{
     background-color: rgb(16, 146, 183);
     font-size: 30px;
     color: aliceblue;
 }    
+
+.Table_Body{
+    font-size: 20px;
+    font-weight: bold;
+}
     
 #linea1{
     background-color: rgb(26, 149, 225);
