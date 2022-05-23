@@ -21,14 +21,27 @@
 
 /*main inizio*/
 
+/*articolo inizio*/
+
+#Articolo{
+    font-weight: bolder;
+    margin: 10px;
+}
+
 #Words_Bg{
     background-color: rgb(244, 237, 106);
 }
+/*articolo fine*/
 
 
+/*lista inizio*/
+#Lista{
+    font-weight: bolder;
+}
+/*lista fine*/
 
 
-/*tabella*/
+/*tabella inizio*/
 #Table_Head{
     background-color: rgb(16, 146, 183);
     font-size: 30px;
@@ -36,9 +49,10 @@
 }    
 
 .Table_Body{
-    font-size: 20px;
-    font-weight: bold;
+    font-size: 17px;
+    font-weight: bolder;
 }
+/*tabella fine*/
     
 #linea1{
     background-color: rgb(26, 149, 225);
