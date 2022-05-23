@@ -2,14 +2,17 @@
 /*header inizio*/
 #sezione_logo{
     background-color: rgb(46, 75, 173);
+    background-image: url(/BONUS/img/pattern.png);
+   background-size: 5cm;
+   height: 100px;
 }
 
 
 #logo {
-    height: 50px; 
+    height: 70px; 
 }
 
-.Creatore {
+#Creatore {
     color: rgb(121, 128, 133);
 }
 
@@ -23,28 +26,28 @@
 
 /*articolo inizio*/
 
-.Main_Article{
+#Articolo{
     font-weight: bolder;
     
 }
 
-.Main_Bg{
+#Words_Bg{
     background-color: rgb(244, 237, 106);
 }
 /*articolo fine*/
 
 
 /*lista inizio*/
-.Lista_Main{
+#Lista{
     font-weight: bolder;
 }
 /*lista fine*/
 
 
 /*tabella inizio*/
-.Table_Head{
+#Table_Head{
     background-color: rgb(16, 146, 183);
-    font-size: 26px;
+    font-size: 30px;
     color: aliceblue;
 }    
 
@@ -54,26 +57,33 @@
 }
 
     
-.Riga_Celeste{
+#linea1{
     background-color: rgb(26, 149, 225);
 }
 
-.Riga_Celeste{
+#linea2{
     background-color: rgb(26, 149, 225);
 }
 
 /*tabella fine*/
 /*main fine*/
 
-/*Footer inizio*/
+/*BONUS*/
+#Bonus_Phrase{
+    color: gray;
+}
 
-.Footer_Article{
-    font-weight: bolder;
+
+/*immagini bonus*/
+.Monitor{
+    position: relative;
+    text-align: left;
+  color: white;
+}
+
+.Text_Monitor{
+    position: absolute;
+  bottom: 8px;
+  left: 16px;
     
 }
-
-.Footer_Bg{
-    background-color: rgb(244, 237, 106);
-}
-/*footer fine*/
-
