@@ -1,9 +1,13 @@
-/*inizio stile header*/
-header {
-    background-color: rgb(46, 101, 148);
+/*background logo e dimensione*/
+#sezione_logo{
+    background-color: rgb(46, 75, 173);
 }
 
 
 #logo {
-    height: 50px;
+    height: 50px; 
+}
+
+#creatore {
+    color: rgb(50, 134, 198);
 }
