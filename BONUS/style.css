@@ -5,11 +5,14 @@
     background-image: url(/BONUS/img/pattern.png);
    background-size: 5cm;
    height: 100px;
+   
 }
 
 
 #logo {
     height: 70px; 
+    margin: 2%;
+   
 }
 
 #Creatore {
@@ -75,15 +78,26 @@
 
 
 /*immagini bonus*/
-.Monitor{
-    position: relative;
-    text-align: left;
-  color: white;
+.Frase_Monitor{
+    background-image: url(/BONUS/img/monitor.jpg);
+    background-size: cover;
+    width: 260px;
+    height: 200px;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
 }
 
-.Text_Monitor{
-    position: absolute;
-  bottom: 8px;
-  left: 16px;
-    
-}
+
+ .Frase_Graf{
+    background-image: url(/BONUS/img/graph.jpg);
+    background-size: cover;
+    width: 260px;
+    height: 200px;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 1cm;
+ }   
